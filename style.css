@@ -204,7 +204,7 @@
 }
 
 .food-items{
-    margin-top: 200px;
+    margin-top: 300px;
     background-color: rgb(228, 236, 224);
     border-radius: 30px;
     display: block;
@@ -311,7 +311,7 @@
 }
 
 .main_slide2{
-    margin-top: 200px;
+    margin-top: 300px;
     margin-bottom: 150px;
     display: flex;
     flex-wrap: wrap;
@@ -874,6 +874,7 @@
      justify-content: center;
      align-items: center;
      margin: auto;
+     padding-top: 6em;
  }
 
  .item{
@@ -891,8 +892,9 @@
      font-size: 35px;
      margin:auto;
      border-width: 35px ;
-     width: 110%;
+     width: 100%;
      justify-content: center;
+     text-align: left;
  }
 
  .details p{
