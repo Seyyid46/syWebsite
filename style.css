@@ -121,11 +121,15 @@
     flex: 1;
     display: flex;
     justify-content: center;
-    padding-top: 320px;
-    width: 55%;
+    width: 20%;
     height: 900px;
-    object-fit: cover;
-    padding-left: 100px;
+    object-fit: contain;
+    padding-top: 160px;
+}
+
+.main_slide div:nth-child(2) img{
+    object-fit: contain;
+    width: 70%;
 }
 
 .main_slide div:nth-child(1){
