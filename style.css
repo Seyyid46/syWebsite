@@ -140,7 +140,7 @@
 
 .main_slide div:nth-child(1) p{
     font-size: 20px;
-    padding: 20px 0px;
+    padding: 20px 0;
     padding-right: 100px;
 }
 
@@ -205,7 +205,6 @@
 
 .food-items{
     margin-top: 200px;
-    padding: 20px 0;
     background-color: white;
     border-radius: 30px;
     display: flex;
@@ -231,9 +230,11 @@
 }
 
 .item{
+    margin: auto;
     width: 250px;
-    padding: 30px;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .item div{
@@ -246,10 +247,18 @@
 }
 
 .item p{
+    align-items: center;
     font-size: 12px;
     margin-top: 15px;
     margin-bottom: 10px;
+    text-align: center;
 }
+
+.hdLine{
+    font-weight: bold;
+    font-size: 20px;
+}
+
 
 .white_btn{
     cursor: pointer;
@@ -820,7 +829,7 @@
 
  .main_slide div:nth-child(1) p{
      padding-top: 10px;
-     font-size: 20px;
+     font-size: 35px;
      align-items: center;
      padding-right: 20px;
  }
@@ -830,15 +839,48 @@
  }
 
  .red_btn{
-     margin-top: 10px;
-     width: 200px;
-     height: 100px;
+     margin-top: 20px;
+     width: 300px;
+     height: 150px;
      line-height: 30px;
      padding: 0 10px;
+     font-size: 25px;
  }
 
  .sprungmarker{
      display: none;
+ }
+
+ .food-items{
+     display: block;
+     justify-content: center;
+     align-items: center;
+     margin: auto;
+ }
+
+ .item{
+     justify-content: center;
+     align-items: center;
+     margin: auto;
+ }
+ .details{
+     justify-content: center;
+     align-items: center;
+     margin: auto;
+ }
+
+ .details summary{
+     font-size: 35px;
+     margin: auto;
+     border-width: 35px ;
+     width: 250px;
+     justify-content: center;
+ }
+
+ .details p{
+     font-size: 25px;
+     align-items: center;
+
  }
 
  .foodimg{
