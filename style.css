@@ -205,32 +205,50 @@
 
 .food-items{
     margin-top: 200px;
-    background-color: white;
+    background-color: rgb(228, 236, 224);
     border-radius: 30px;
-    display: flex;
+    display: block;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
+.details{
+    padding: 1em;
+    border: 2px solid rgba(43, 65, 28, 0.47);
+    border-radius: 20px;
+    margin-bottom: 1em;
+    transition: 0.4s ease-in-out;
+    max-height: 100px;
+    overflow: hidden;
+    background-color: #e1eed9;
+}
+
+.details p{
+    padding-left: 20px;
+}
+
 .food-items summary{
+    display: flex;
     cursor: pointer;
     font-weight: bold;
     font-size: 18pt;
-    margin-bottom: 50px;
-    background-color: rgb(107, 121, 104);
-    color: white;
-    border: 5px solid rgb(107, 121, 104);
-    border-radius: 50px;
-    box-shadow: 0 2px 15px rgb(16, 77, 16);
+    padding: 10px;
 }
 
 .food-items summary:hover{
     color: rgba(43, 65, 28, 0.47);
-    background-color: #ffffff;
+}
+
+.details[open]{
+    background-color: #cbdabd;
+    max-height: 800px;
+}
+
+.details[open] summary{
+    padding-bottom: 1em;
 }
 
 .item{
-    margin: auto;
     width: 250px;
     text-align: center;
     padding-top: 20px;
@@ -871,15 +889,16 @@
 
  .details summary{
      font-size: 35px;
-     margin: auto;
+     margin:auto;
      border-width: 35px ;
-     width: 250px;
+     width: 110%;
      justify-content: center;
  }
 
  .details p{
      font-size: 25px;
      align-items: center;
+     padding-top: 10px;
 
  }
 
